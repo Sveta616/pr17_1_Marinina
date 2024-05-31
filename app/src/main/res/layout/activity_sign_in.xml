@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gr"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignIn">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/login"
+    android:hint="@string/login"
+    android:inputType="textEmailAddress"
+    android:textSize="20sp"
+    android:layout_margin="10dp"
+    android:fontFamily="sans-serif-condensed-medium"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_margin="10dp"
+        android:hint="@string/passward"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/s_l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="handler"
+        android:text="@string/save_load_b"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="nextb"
+        android:text="@string/signin"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/save_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/savelog"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:paddingTop="120dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/save_password"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/savepass"
+        android:textSize="25sp"
+        android:gravity="center">
+    </TextView>
+</LinearLayout>

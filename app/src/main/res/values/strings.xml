@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">pr17_1</string>
+    <string name="save_load_b">Сохранить/Загрузить</string>
+    <string name="signin">Войти</string>
+    <string name="savepass">Сохранненый пароль</string>
+    <string name="savelog">Сохранненый логин</string>
+    <string name="chose_d">Выбор действия</string>
+    <string name="choose_mess">Выберите действие</string>
+    <string name="save_d">Сохранить</string>
+    <string name="login">login</string>
+    <string name="passward">passward</string>
+    <string name="success">Успешно</string>
+    <string name="save_messss">Введенные данные сохранены</string>
+    <string name="etc">Продолжить</string>
+    <string name="load">Загрузить</string>
+    <string name="choose">Выбрать</string>
+    <string name="first">1 число</string>
+    <string name="second">2 число</string>
+    <string name="third">3 число</string>
+    <string name="doit">Вычислить</string>
+    <string name="answer">Ответ</string>
+    <string name="save_mess">Введённые данные загружены</string>
+    <string-array name="figures">
+        <item>Треугольник</item>
+        <item>Прямоугольник</item>
+        <item>Круг</item>
+    </string-array>
+</resources>
